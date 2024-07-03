@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	port := ":8080"
+	port := ":80"
 	fmt.Println("Listening @ port", port)
 	http.HandleFunc("/", Handler)
 	http.ListenAndServe(port, nil)
