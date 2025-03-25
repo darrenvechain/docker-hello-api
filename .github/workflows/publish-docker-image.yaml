@@ -15,7 +15,7 @@ jobs:
     strategy:
       matrix:
         runs-on:
-          - ubuntu-24.04-amd
+          - ubuntu-latest
           - ubuntu-24.04-arm
     steps:
       - name: Log in to the Container registry
